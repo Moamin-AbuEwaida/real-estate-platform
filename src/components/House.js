@@ -29,7 +29,7 @@ const House = ({house}) => {
           <div>{surface}</div>
         </div>
       </div>
-      <div className='text-lg font-semibold text-violet-600 mb-4'>{price}</div>
+      <div className='text-lg font-semibold text-violet-600 mb-4'>$ {price}</div>
     </div>
   )
 }
